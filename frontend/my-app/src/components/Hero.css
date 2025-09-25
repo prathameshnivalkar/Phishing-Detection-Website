@@ -1,0 +1,112 @@
+.hero {
+  padding: 80px 0 120px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.hero-highlight {
+  color: #fbbf24;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.url-scanner {
+  margin-bottom: 3rem;
+}
+
+.input-group {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.url-input {
+  flex: 1;
+  border: none;
+  padding: 16px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: none;
+  color: #333;
+}
+
+.url-input::placeholder {
+  color: #94a3b8;
+}
+
+.scan-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  margin-left: 8px;
+}
+
+.trust-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 0 80px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-description {
+    font-size: 1.1rem;
+  }
+  
+  .input-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .scan-btn {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .trust-indicators {
+    gap: 1rem;
+  }
+  
+  .trust-item {
+    font-size: 0.8rem;
+  }
+}
