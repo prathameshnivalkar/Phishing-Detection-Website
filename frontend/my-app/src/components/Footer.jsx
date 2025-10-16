@@ -63,7 +63,7 @@ const Footer = () => {
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                       <path d="M22 16.92V19A2 2 0 0 1 20.11 21A19.79 19.79 0 0 1 2 3.11A2 2 0 0 1 3 1H5.09A2 2 0 0 1 7.11 2.46L8.5 6.5A2 2 0 0 1 8.12 8.77L6.82 10.07A16 16 0 0 0 13.93 17.18L15.23 15.88A2 2 0 0 1 17.5 15.5L21.54 16.89A2 2 0 0 1 22 16.92Z" stroke="currentColor" strokeWidth="2"/>
                     </svg>
-                    +91-9974968745
+                    +91-91231 00108
                   </li>
                   <li>
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -76,6 +76,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <br />
 
           <div className="footer-bottom">
             <p>&copy; 2025 VeryPhishy. All rights reserved.</p>

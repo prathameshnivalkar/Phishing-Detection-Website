@@ -15,6 +15,7 @@
 
 .section-white {
   background: white;
+  color: black;
 }
 
 .section-light {
@@ -40,33 +41,36 @@
 }
 
 .btn-primary {
-  background: #4f46e5;
+  background: rgb(28, 37, 41);
   color: white;
+   border: 2px solid rgb(28, 37, 41);
 }
 
 .btn-primary:hover {
-  background: #4338ca;
+  color: rgb(28, 37, 41);
+  background: rgb(161, 209, 177);
   transform: translateY(-2px);
 }
 
 .btn-secondary {
-  background: transparent;
-  color: #4f46e5;
-  border: 2px solid #4f46e5;
+  background: rgb(161, 209, 177);
+  color: rgb(28, 37, 41);
+  border: 2px solid rgb(28, 37, 41);
 }
 
 .btn-secondary:hover {
-  background: #4f46e5;
-  color: white;
+  background: rgb(28, 37, 41);
+  color: rgb(161, 209, 177);
 }
 
 .btn-white {
   background: white;
-  color: #4f46e5;
+  color: rgb(28, 37, 41);
 }
 
 .btn-white:hover {
-  background: #f1f5f9;
+  color: rgb(28, 37, 41);
+  background: rgb(161, 209, 177);
 }
 
 .text-center {
@@ -111,6 +115,7 @@
   }
   
   .section {
+    
     padding: 40px 0;
   }
 }

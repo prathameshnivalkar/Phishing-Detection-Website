@@ -1,6 +1,6 @@
 .hero {
   padding: 80px 0 120px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg,rgb(28, 37, 41) 100%, rgb(161, 209, 177) 0% );
   color: white;
   text-align: center;
 }
@@ -62,9 +62,11 @@
   gap: 8px;
   white-space: nowrap;
   margin-left: 8px;
+  color: rgb(28, 37, 41);
 }
 
 .trust-indicators {
+  color: rgb(161, 209, 177);
   display: flex;
   justify-content: center;
   gap: 2rem;

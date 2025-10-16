@@ -1,25 +1,31 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './AdvancedDetection.css'
 
 const AdvancedDetection = () => {
   const stats = [
-    {
-      value: "99.7%",
-      label: "Detection Rate"
-    },
-    {
-      value: "<2.5s",
-      label: "Scan Time"
-    },
-    {
-      value: "400+",
-      label: "Sites Analyzed"
-    },
-    {
-      value: "24/7",
-      label: "Monitoring"
-    }
+    { value: "99.7%", label: "Detection Rate" },
+    { value: "<2.5s", label: "Scan Time" },
+    { value: "400+", label: "Sites Analyzed" },
+    { value: "24/7", label: "Monitoring" }
   ]
+
+  const statsRef = useRef([])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-left-to-right')
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.2 }
+    )
+
+    statsRef.current.forEach(card => card && observer.observe(card))
+  }, [])
 
   return (
     <section className="advanced-detection section section-light">
@@ -31,7 +37,11 @@ const AdvancedDetection = () => {
 
         <div className="stats-grid">
           {stats.map((stat, index) => (
-            <div key={index} className="stat-item">
+            <div
+              key={index}
+              ref={el => (statsRef.current[index] = el)}
+              className="stat-item"
+            >
               <div className="stat-value">{stat.value}</div>
               <div className="stat-label">{stat.label}</div>
             </div>

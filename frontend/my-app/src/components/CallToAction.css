@@ -1,5 +1,5 @@
 .cta {
-  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, rgb(28, 37, 41) 100%, rgb(161, 209, 177) 0%);
   color: white;
   text-align: center;
 }
@@ -8,6 +8,7 @@
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: white;
 }
 
 .cta-content p {
@@ -17,6 +18,7 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: #e2e8f0;
 }
 
 .cta .btn {
@@ -25,6 +27,15 @@
   gap: 0.5rem;
   font-size: 1.1rem;
   padding: 16px 32px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgb(161, 209, 177);
+  transition: all 0.3s ease;
+}
+
+.cta .btn:hover {
+  background: rgb(161, 209, 177);
+  color: rgb(28, 37, 41);
 }
 
 @media (max-width: 768px) {

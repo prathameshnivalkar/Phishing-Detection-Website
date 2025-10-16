@@ -5,13 +5,13 @@
 .section-header h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #1e293b;
+  color: rgb(161, 209, 177);
   margin-bottom: 1rem;
 }
 
 .section-header p {
   font-size: 1.1rem;
-  color: #64748b;
+  color: black;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -35,14 +35,14 @@
 .step-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, rgb(28, 37, 41) 0%, rgb(28, 37, 41) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.5rem;
   position: relative;
-  color: white;
+  color: rgb(161, 209, 177);
 }
 
 .step-number {
@@ -51,8 +51,8 @@
   right: -8px;
   width: 24px;
   height: 24px;
-  background: #fbbf24;
-  color: #1e293b;
+  background: rgb(161, 209, 177);
+  color: black;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -64,12 +64,12 @@
 .step-content h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #1e293b;
+  color:black;
   margin-bottom: 0.5rem;
 }
 
 .step-content p {
-  color: #64748b;
+  color: black;
   line-height: 1.6;
 }
 
@@ -79,7 +79,7 @@
   right: -50%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
+  background: linear-gradient(90deg, rgb(28, 37, 41) 0%, rgb(28, 37, 41) 100%);
   z-index: -1;
 }
 
@@ -109,7 +109,7 @@
     transform: translateX(-50%);
     width: 2px;
     height: 3rem;
-    background: linear-gradient(180deg, #4f46e5 0%, #7c3aed 100%);
+    background: linear-gradient(180deg, rgb(28, 37, 41) 0%, rgb(28, 37, 41) 100%);
   }
   
   .step-item:last-child::after {
