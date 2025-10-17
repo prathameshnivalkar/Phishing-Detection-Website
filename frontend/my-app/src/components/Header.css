@@ -2,9 +2,12 @@
   background: linear-gradient(135deg, rgb(28, 37, 41) 100%, rgb(161, 209, 177) 0%);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgb(161, 209, 177);
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
 }
 
 .nav {

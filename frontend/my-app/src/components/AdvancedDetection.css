@@ -3,6 +3,8 @@
   background: rgb(28, 37, 41) !important; /* Shadow Green */
   color: rgb(161, 209, 177); /* Mint Green text */
   padding: 60px 0;
+  min-height: 70vh;
+
 }
 
 /* Header styling */

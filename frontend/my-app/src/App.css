@@ -1,16 +1,21 @@
 .App {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .section {
-  padding: 60px 0;
+  width: 100%;
+  padding: 80px 0;
+  box-sizing: border-box;
 }
 
 .section-white {

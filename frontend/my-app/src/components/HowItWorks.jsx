@@ -21,7 +21,7 @@ const HowItWorks = () => {
   ]
 
   return (
-    <section className="how-it-works section section-white">
+    <section id="how" className="how-it-works section section-white">
       <div className="container">
         <div className="section-header text-center mb-6">
           <h2>How It Works</h2>
